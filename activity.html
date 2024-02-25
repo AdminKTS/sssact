@@ -1,0 +1,265 @@
+<html>
+    <head>
+          <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  href="css/index.css">
+        <link rel="stylesheet"  href="css/android.css">
+        <script type="text/javascript" src="js/index.js"></script>
+
+        <style>
+* {
+  box-sizing: border-box;
+}
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #590E0E;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.container::after {
+  content: '';
+  position:absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: #590E0E;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+
+}
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  right: 30px;
+  border: medium solid #590E0E;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent #590E0E;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  left: 30px;
+  border: medium solid #590E0E;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #590E0E transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-image: url('media/desktop_back.png');
+  background-size: cover;
+  position: relative;
+  border-radius: 6px;
+  color: black;
+  font-weight: bold;
+  height: 220px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  border: medium solid #590E0E;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent #590E0E transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left::after, .right::after {
+  left: 15px;
+  }
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+</style>
+
+
+    </head>
+
+    <body>
+        <div class="sub_header_main_activity_container">
+            <div class="header_navigation_container">
+
+                  <div id="android_menu">
+                        <div id="myNav" class="overlay">
+                              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                              <div class="overlay-content">
+                                <img src="media/logo.jpg" id="android_logo">
+                                <a href="index.html">Home</a>
+                                <a href="index.html#contact_main_and">Contact</a>
+                                <a href="donation.html">Donate</a>
+                                <a href="activity.html">OurActivity</a>
+                                <a href="gallery.html">Gallery</a>
+                              </div>
+                            </div>
+
+                            <span style="color: white; font-size:35px;cursor:pointer" onclick="openNav()">&#9776</span>
+
+                            <script>
+                            function openNav() {
+                              document.getElementById("myNav").style.width = "100%";
+                            }
+
+                            function closeNav() {
+                              document.getElementById("myNav").style.width = "0%";
+                            }
+                            </script>
+                    </div>
+
+
+                <div class="header_navigation_container_right">
+                    <img src="media/logo.jpg" class="logo_icon">
+                </div>
+                <div class="header_navigation_container_left">
+                  <button id="secondary" onclick="home()">Home</button>
+                    <button id="secondary" onclick="about()">AboutUs</button>
+                    <button id="secondary" onclick="activity()">OurActivity</button>
+                    <button id="secondary" onclick="ga()">Gallery</button>
+                    <button id="secondary" onclick="contact()">Contact</button>
+                    <button id="active" onclick="donate()">Donate</button>
+                </div>
+               
+            </div>
+            <div class="header_body-container">
+               
+            </div>
+        </div>
+
+        <div class="perform_activity">
+
+
+
+            <div class="timeline">
+              <div class="container left">
+                <div class="content">
+                  <h2>2023</h2>
+                  <p>June 21st 2023 Yoga Day 
+                      ,   August 15th  2023 Independent Day</p>
+                   <button onclick="ga()">View Image</button>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="content">
+                  <h2>2022</h2>
+                    <p>5th June 2022 World Environmental Day</p>
+                      <button onclick="ga()">View Image</button>
+                </div>
+              </div>
+  
+            </div>
+       
+
+        </div>
+
+         
+
+
+        <div class="contact_con">
+
+            <div class="contact_left">
+                <p>Scan the code to visit  our Aashram</p>
+                <img src="media/code.png" class="code">
+                
+            </div>
+
+            <div class="contact_right">
+               
+               <div>
+                  <p>#1107, 9th cross, near nagasandra post office, Hmt layout,Nagasandra,Bangalore - 73</p>
+                  <p>sssactb@gmail.com</p>
+                  <p>9164086681</p>
+
+                    <a href="https://www.facebook.com/Sai-anathashrama-658397104875466/"> <img src="media/facebook.png" id="metaicon"></a>
+                   <a href=""> <img src="media/googlemap.png" id="metaicon"></a>
+
+               </div>
+             
+                
+            </div>
+            
+        </div>
+
+
+       
+
+        <div class="footer_con">
+            <a href="https://k-akatechnology.in/">Copyright @ K-AKA Technology Services-2024</a>
+        </div>
+
+
+
+
+        <div id="flot_button">
+            <a class="c_flot_btn" href="https://wa.me/9164086681"> <img src="media/whatsapp.png" class="fix_contact_icon"></a>
+        </div>
+
+    </body>
+
+</html>

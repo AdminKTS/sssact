@@ -1,0 +1,152 @@
+<html>
+    <head>
+          <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"  href="css/index.css">
+        <link rel="stylesheet"  href="css/android.css">
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+
+    <body>
+        <div class="sub_header_main_ga_container">
+            <div class="header_navigation_container">
+
+                <div id="android_menu">
+                        <div id="myNav" class="overlay">
+                              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                              <div class="overlay-content">
+                                <img src="media/logo.jpg" id="android_logo">
+                                <a href="index.html">Home</a>
+                                <a href="index.html#contact_main_and">Contact</a>
+                                <a href="donation.html">Donate</a>
+                                <a href="activity.html">OurActivity</a>
+                                <a href="gallery.html">Gallery</a>
+                              </div>
+                            </div>
+
+                            <span style="color: white; font-size:35px;cursor:pointer" onclick="openNav()">&#9776</span>
+
+                            <script>
+                            function openNav() {
+                              document.getElementById("myNav").style.width = "100%";
+                            }
+
+                            function closeNav() {
+                              document.getElementById("myNav").style.width = "0%";
+                            }
+                            </script>
+                    </div>
+
+                    
+                <div class="header_navigation_container_right">
+                    <img src="media/logo.jpg" class="logo_icon">
+                </div>
+                <div class="header_navigation_container_left">
+                  <button id="secondary" onclick="home()">Home</button>
+                    <button id="secondary" onclick="about()">AboutUs</button>
+                    <button id="secondary" onclick="activity()">OurActivity</button>
+                    <button id="secondary" onclick="ga()">Gallery</button>
+                    <button id="secondary" onclick="contact()">Contact</button>
+                    <button id="active" onclick="donate()">Donate</button>
+                </div>
+               
+            </div>
+            <div class="header_body-container">
+               
+            </div>
+        </div>
+
+        <div class="perform_ga">
+
+            <button class="collapsible">World Environmant Day Celebration</button>
+            <div class="content_ga">
+              <div>
+                  <img src="media/activity/w2.jpeg"> 
+                  <img src="media/activity/w3.jpeg">
+    
+              </div>
+            </div>
+            <button class="collapsible">Yoga Day Celebration</button>
+            <div class="content_ga">
+             <div>
+                  <img src="media/activity/y1.jpeg">
+                  <img src="media/activity/y2.jpeg">
+                  <img src="media/activity/y3.jpeg">
+              </div>
+            </div>
+            <button class="collapsible">Independance Day Celebration</button>
+            <div class="content_ga">
+                <div>
+                  <img src="media/activity/i1.jpeg">
+                  <img src="media/activity/i2.jpeg">
+                  <img src="media/activity/i3.jpeg">
+              </div>
+            </div>
+
+     
+                       
+            
+
+        </div>
+
+         
+
+
+        <div class="contact_con">
+
+            <div class="contact_left">
+                <p>Scan the code to visit  our Aashram</p>
+                <img src="media/code.png" class="code">
+                
+            </div>
+
+            <div class="contact_right">
+               
+               <div>
+                  <p>#1107, 9th cross, near nagasandra post office, Hmt layout,Nagasandra,Bangalore - 73</p>
+                  <p>sssactb@gmail.com</p>
+                  <p>9164086681</p>
+
+                    <a href="https://www.facebook.com/Sai-anathashrama-658397104875466/"> <img src="media/facebook.png" id="metaicon"></a>
+                   <a href=""> <img src="media/googlemap.png" id="metaicon"></a>
+
+               </div>
+             
+                
+            </div>
+            
+        </div>
+
+
+       
+
+        <div class="footer_con">
+            <a href="https://k-akatechnology.in/">Copyright @ K-AKA Technology Services-2024</a>
+        </div>
+
+
+
+
+        <div id="flot_button">
+            <a class="c_flot_btn" href="https://wa.me/9164086681"> <img src="media/whatsapp.png" class="fix_contact_icon"></a>
+        </div>
+
+    </body>
+
+       <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                } 
+              });
+            }
+            </script>
+</html>

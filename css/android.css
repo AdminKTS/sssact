@@ -1,0 +1,417 @@
+@media only screen and (max-width: 600px) {
+
+
+.timeline button{
+    height:40px;
+    width: 50%;
+    margin-left: 15%;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#android_activity{
+
+    display: block;
+}
+.content_ga {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  width: 90%;
+  margin-left: 2%;
+}
+.content_ga img{
+    height: 200px;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
+.logo_icon{
+    margin-top: 1%;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.header_navigation_container_right{
+    height: 100px;
+    display: block;
+    width: 0%;
+    padding-left: 5%;
+    float: left;
+    display: none;
+
+
+}
+.about_container_right_vission_heading{
+    background-color: #590E0E;
+    height: 30px;
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 2%;
+ 
+}
+
+.header_navigation_container_left{
+    height: 100px;
+    display:block;
+    width:100%;
+    float: right;
+    display: none;
+}
+.header_main_container{
+    height: 150px;
+    width: 100%;
+    background-image: url(../media/f2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.sub_header_main_container{
+    height: 200px;
+       width: 100%;
+    background-image: url('../media/android/donation_page_back.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+   
+
+   
+}
+#android_menu{
+    display: block;
+    
+}
+.sub_header_main_activity_container{
+	height: 200px;
+       width: 100%;
+    background-image: url('../media/android/m2.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+}
+.sub_header_main_ga_container{
+	height: 200px;
+       width: 100%;
+    background-image: url('../media/android/m1.png');
+      background-size: 100%;
+      background-repeat: no-repeat;
+}
+.perform_donation{
+    height: 300px;
+    width: 100%;
+    background-image: url('../media/common.png');
+   background-size: cover;
+}
+.perform_activity{
+	height: 500px;
+    width: 100%;
+    background-image:none;
+    background-size: cover;
+}
+.perform_ga{
+	
+    width: 100%;
+    background-image: none;
+    background-size: cover;
+}
+.perform_donation p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+table{
+    background-color: white;
+    width: 80%;
+     border-collapse: collapse;
+     margin-top: 2%;
+     margin-left: 10%;
+     text-align: left;
+}
+
+.about_container{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+    height: 790px;
+}
+.about_container_left{
+    height: 420px;
+    display:block;
+    width: 0%;
+    float: left;
+    display: none;
+
+  
+
+}
+.about_container_right{
+    height:700px;
+    display:block;
+    width: 100%;
+    float: right;
+    background-image: url('../media/c_back.png');
+    background-size: cover;
+
+
+}
+.about_container_right_vission{
+    height: 400px;
+    width: 100%;
+    text-align: justify;
+    width: 90%;
+    margin-left: 5%;
+    
+  
+}
+.right_left{
+
+    height: 250px;
+    display: block;
+    width: 90%;
+    float: none;
+   margin-left: 5%;
+   font-size: 18px;
+text-align: justify;
+}
+
+.right_right{
+
+     height: 220px;
+    display: inline-block;
+    width: 90%;
+    float: none;
+   margin-left: 5%;
+   font-size: 18px;
+   text-align: justify;
+
+  
+
+}
+.activity_container{
+    height: 240px;
+    background-image: url('../media/activity_back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    margin-left: 5%;
+
+
+    
+}
+.all_activity_con{
+    height: 700px;
+    margin-top: 2%;
+    width: 90%;
+    margin-left: 5%;
+
+}
+.right_left_heading{
+      background-color: #590E0E;
+    height: 25px;
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 2%;
+    margin-bottom: 5%;
+}
+.all_activity_left{
+    height: 320px;
+    display: inline-block;
+    width: 25%;
+    float: left;
+    margin-top: 2%;
+    padding-left: 5%;
+    display: none;
+   
+}
+.all_activity_left img{
+    height: 100%;
+    width: 100%;
+}
+.all_activity_right{
+    height: 320px;
+    display: inline-block;
+    width: 100%;
+    float: none;
+    margin-right: 0%;
+    margin-top: 0%;
+    border-radius: 2%;
+   background-size: cover;
+}
+.all_activity_middle{
+    height: 320px;
+    display: inline-block;
+    width: 30%;
+    float: right;
+    margin-top: 2%;
+    display: none;
+ 
+}
+.donation_con{
+    height: 350px;
+    background-image: url('../media/common.png');
+    width: 100%;
+}
+#android_activity{
+     height: 350px;
+    background-image: url('../media/common.png');
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+
+}
+#android_activity p{
+    margin: 0px;
+    padding:2px;
+}
+#android_activity button{
+    height: 50px;
+    width: 60%;
+    margin-top: 2%;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.donation_con p{
+    font-size: 20px;
+    width: 80%;
+    margin-left: 8%;
+    font-weight: bold;
+   padding-top: 5%;
+   text-align: justify;
+
+}
+.donation_con button{
+    height: 50px;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.contact_con{
+    height: 370px;
+    margin-top: 2%;
+    background-image: url('../media/contact_back.png');
+    background-size: cover;
+    width: 100%;
+
+}
+.contact_left{
+
+   height: 300px;
+    display: inline-block;
+    width: 40%;
+    float: left;
+   margin-left: 5%;
+   display: none;
+
+
+
+}
+.contact_left p{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.contact_right{
+
+    height: 300px;
+    display: block;
+    width: 95%;
+    float: none;
+    margin-right: 5%;
+    text-align: center;
+    padding-top: 8%;
+    
+}
+.footer_con{
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+
+}
+.footer_con a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+#android_logo{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }

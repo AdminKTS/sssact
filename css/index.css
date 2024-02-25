@@ -1,0 +1,400 @@
+.header_navigation_container_right{
+    height: 100px;
+    display: inline-block;
+    width: 10%;
+    padding-left: 5%;
+    float: left;
+
+}
+.header_navigation_container_left{
+    height: 100px;
+    display: inline-block;
+    width: 80%;
+    float: right;
+}
+.header_main_container{
+    height: 600px;
+    background-image: url(../media/f2.png);
+    background-size: cover;
+}
+.logo_icon{
+    margin-top: 2%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.header_navigation_container_left button{
+    margin-left:2%;
+    margin-top: 3%;
+    height: 40px;
+    width: 10%;
+    font-weight: bold;  
+    background-color: inherit;
+    border: none;
+    font-size: 15px;
+    color: white;
+   
+}
+#flot_button {
+	position: fixed;
+	bottom: -4px;
+	right: 10px;
+	margin-bottom:0.5%;
+  }
+.c_flot_btn {
+	background-color :inherit;
+	border: none;
+	
+  }
+.fix_contact_icon{
+	height: 60px;
+	width: 60px;
+    border-radius: 50%;
+}
+#active{
+    background-color: red;
+}
+.about_container{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.about_container_left{
+    height: 420px;
+    display: inline-block;
+    width: 30%;
+    float: left;
+
+  
+
+}
+.about_container_right{
+    height: 420px;
+    display: inline-block;
+    width: 70%;
+    float: right;
+    background-image: url('../media/c_back.png');
+    background-size: cover;
+
+
+}
+.v_icon{
+    height: 100%;
+    width: 100%;
+   
+}
+.about_container_right_vission{
+    height: 200px;
+    width: 100%;
+    text-align: justify;
+    width: 90%;
+    margin-left: 5%;
+    
+  
+}
+.about_container_right_vission_heading{
+    background-color: #590E0E;
+    height: 50px;
+    margin-top: 2%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 2%;
+ 
+}
+.right_left_heading{
+    background-color: #590E0E;
+    height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding-top: 2%;
+}
+.right_left{
+
+    height: 220px;
+    display: inline-block;
+    width: 44%;
+    float: left;
+   margin-left: 5%;
+
+}
+.right_right{
+
+    height: 220px;
+    display: inline-block;
+    width: 44%;
+    float: right;
+    margin-right: 5%;
+  
+
+}
+.activity_container{
+    height: 760px;
+    background-image: url('../media/activity_back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    
+}
+.all_activity_con{
+    height: 450px;
+    margin-top: 2%;
+
+}
+.all_activity_left{
+    height: 320px;
+    display: block;
+    width: 25%;
+    float: left;
+    margin-top: 2%;
+    padding-left: 5%;
+   
+}
+.all_activity_left img{
+    height: 100%;
+    width: 100%;
+}
+.all_activity_right{
+    height: 320px;
+    display: block;
+    width: 34%;
+    float: right;
+    margin-right: 3%;
+    margin-top: 2%;
+    border-radius: 2%;
+   background-size: cover;
+}
+.all_activity_middle{
+    height: 320px;
+    display: inline-block;
+    width: 30%;
+    float: right;
+    margin-top: 2%;
+ 
+}
+.contact_con{
+    height: 370px;
+    margin-top: 2%;
+    background-image: url('../media/contact_back.png');
+    background-size: cover;
+
+}
+.contact_left{
+
+   height: 300px;
+    display: inline-block;
+    width: 40%;
+    float: left;
+   margin-left: 5%;
+
+
+
+}
+.contact_left p{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+.contact_right{
+
+    height: 300px;
+    display: inline-block;
+    width: 49%;
+    float: right;
+    margin-right: 5%;
+    
+}
+.code{
+    height: 250px;
+    width: 250px;
+    margin-left: 20%;
+}
+#c_icon{
+    height: 50px;
+    width: 50px;
+}
+.contact_right div{
+    margin-top: 15%;
+}
+.contact_right p{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+.contact_right button{
+    height: 50px;
+    width: 40%;
+    background-color: white;
+    border: none;
+    font-weight: bold;
+}
+.donation_con{
+    height: 300px;
+    background-image: url('../media/common.png');
+}
+.donation_con p{
+    font-size: 25px;
+    width: 70%;
+    margin-left: 15%;
+    font-weight: bold;
+   padding-top: 5%;
+   text-align: justify;
+
+}
+.donation_con button{
+    height: 50px;
+    width: 25%;
+    margin-left: 35%;
+    margin-top: 2%;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.footer_con{
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 2%;
+
+}
+.footer_con a{
+    text-decoration: none;
+    color: black;
+}
+#metaicon{
+    height: 30px;
+    width: 30px;
+    margin-left: 2%;
+}
+.sub_header_main_container{
+    height: 350px;
+    background-image: url('../media/donation_page_back.png');
+    background-size: cover;
+
+   
+}
+#android_menu{
+    display: none;
+    
+}
+.sub_header_main_activity_container{
+     height: 350px;
+    background-image: url('../media/m2.png');
+    background-size: cover;
+
+}
+.sub_header_main_ga_container{
+     height: 350px;
+    background-image: url('../media/m1.png');
+    background-size: cover;
+
+}
+.perform_donation{
+    height: 250px;
+    background-image: url('../media/common.png');
+}
+.perform_activity{
+    height: 450px;
+    background-image: url('../media/common.png');
+}
+.perform_ga{
+    
+    background-image: url('../media/common.png');
+}
+
+table{
+    background-color: white;
+    width: 60%;
+     border-collapse: collapse;
+     margin-top: 2%;
+     margin-left: 23%;
+     text-align: left;
+}
+.perform_donation p{
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+#secondary:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#active:hover{
+    box-shadow: 1px 1px 10px white;
+}
+.donation_con button:hover{
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+#flot_button button:hover{
+    cursor: pointer;
+}
+#android_activity{
+    display: none;
+}
+.timeline button{
+    height: 50px;
+    width: 25%;
+    margin-left: 35%;
+    background-color: red;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.timeline button:hover{
+    box-shadow: 1px 1px 10px black;
+    cursor: pointer;
+}
+
+
+
+.collapsible {
+  background-image: url('../media/desktop_back.png');
+  background-size: cover;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-left: 10%; 
+  margin-top: 2%;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content_ga {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: white;
+  width: 80%;
+  margin-left: 10%;
+}
+.content_ga img{
+    height: 400px;
+    width:80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border-radius: 20px;
+}
